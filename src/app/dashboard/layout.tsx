@@ -1,5 +1,5 @@
+import { Sidebar } from "@/components";
 import React from "react";
-import Sidebar from "../components/Sidebar";
 
 const dashboardLayout = ({children}: {children: React.ReactNode}) => {
   return (
@@ -9,7 +9,7 @@ const dashboardLayout = ({children}: {children: React.ReactNode}) => {
 
             <Sidebar />
             
-            <div className="m-2 w-full text-slate-900">
+            <div className="w-full text-slate-900">
                 {children}
             </div>
         
